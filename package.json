@@ -1,7 +1,7 @@
 {
-  "name": "streamflow",
-  "version": "2.2.2",
-  "description": "Cloud streaming solution with FFmpeg",
+  "name": "ngelive",
+  "version": "1.0.0",
+  "description": "ngelive - Platform Live Streaming Premium berbasis Cloud",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",

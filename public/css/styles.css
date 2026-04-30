@@ -1,11 +1,10 @@
 /*
- * StreamFlow v2.1 - Live Streaming Lewat VPS
+ * ngelive - Live Streaming Platform
  * 
  * Custom Features & UI Components
- * Created by: Bang Tutorial
- * GitHub: https://github.com/bangtutorial
+ * GitHub: https://github.com/creatorvaimoz-ux/ngelive
 
- * © 2026 Bang Tutorial - All rights reserved
+ * © 2026 ngelive - All rights reserved
  */
 
 @font-face {
@@ -71,7 +70,10 @@
 }
 
 :root {
-  --primary-color: #0055FF;
+  --primary-color: #7C3AED;
+  --primary-hover: #6D28D9;
+  --primary-light: #A855F7;
+  --primary-glow: rgba(124, 58, 237, 0.3);
 }
 
 body {
