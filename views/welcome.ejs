@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome - StreamFlow</title>
+  <title>Welcome - ngelive</title>
   <link rel="icon" href="/images/logo.svg" type="image/svg+xml">
   <link rel="preload" href="/images/logo.svg" as="image" type="image/svg+xml">
   <link rel="alternate icon" href="/images/favicon.ico" type="image/x-icon">
@@ -23,8 +23,8 @@
         },
         extend: {
           colors: {
-            'primary': '#0055FF',
-            'secondary': '#0043CA',
+            'primary': '#7C3AED',
+            'secondary': '#6D28D9',
             'dark': {
               '900': '#121212',
               '800': '#252525',
@@ -41,11 +41,14 @@
   </script>
   <style>
     .donate-button {
-      background: linear-gradient(45deg, #01935d, #01e304);
-      transition: filter 0.2s ease;
+      background: linear-gradient(135deg, #7C3AED, #A855F7);
+      transition: filter 0.2s ease, transform 0.2s ease;
+      box-shadow: 0 0 20px rgba(124, 58, 237, 0.4);
     }
     .donate-button:hover {
-      filter: brightness(0.85);
+      filter: brightness(1.1);
+      transform: translateY(-1px);
+      box-shadow: 0 0 30px rgba(168, 85, 247, 0.5);
     }
     .donators-container {
       overflow: hidden;
@@ -94,25 +97,27 @@
   <div class="min-h-screen flex flex-col items-center justify-center px-6 py-10">
     <div class="w-full max-w-md text-center">
       <div class="mb-8">
-        <img src="/images/logo_mobile.svg" alt="StreamFlow Logo" class="h-9 mx-auto mb-6">
-        <h1 class="text-3xl font-bold mb-3">Welcome to StreamFlow</h1>
+        <img src="/images/logo_mobile.svg" alt="ngelive Logo" class="h-9 mx-auto mb-6">
+        <h1 class="text-3xl font-bold mb-3">Welcome to <span class="text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-purple-300">ngelive</span></h1>
       </div>
-      <div class="bg-dark-800 rounded-xl p-6 mb-6">
+      <div class="bg-dark-800 rounded-xl p-6 mb-6 border border-violet-700/20">
         <p class="text-gray-400 text-sm mb-4">
-          Terima kasih sudah menggunakan StreamFlow
+          Selamat datang di <span class="text-violet-400 font-semibold">ngelive</span> — platform live streaming premium berbasis cloud.
         </p>
         <p class="text-gray-400 text-sm mb-6">
-          Kamu bisa bantu support admin biar makin semangat ngembangin aplikasi ini 🥹<span id="pray-emoji" class="inline-block opacity-0 transition-opacity duration-300">🙏</span>
+          Mulai streaming ke YouTube, Twitch, dan platform lainnya dengan mudah! 🚀
         </p>
-        <a id="donate-btn" href="https://donate.youtube101.id/" target="_blank" rel="noopener noreferrer"
+        <a id="donate-btn" href="/dashboard"
           class="donate-button inline-flex items-center justify-center w-full text-white py-3 px-4 rounded-lg font-medium">
-          <i class="ti ti-heart mr-2"></i>
-          Donate
+          <i class="ti ti-rocket mr-2"></i>
+          Mulai Streaming Sekarang
         </a>
-        <div class="mt-8 pt-4 border-t border-gray-700/50">
-          <p class="text-gray-500 text-xs mb-3">Supporter:</p>
-          <div class="donators-container">
-            <div class="donators-track" id="donators-track"></div>
+        <div class="mt-6 pt-4 border-t border-violet-700/20">
+          <p class="text-gray-500 text-xs mb-3">✨ Platform ngelive didukung oleh:</p>
+          <div class="flex items-center justify-center gap-4 text-xs text-gray-500">
+            <span class="flex items-center gap-1"><i class="ti ti-brand-youtube text-red-400"></i> YouTube</span>
+            <span class="flex items-center gap-1"><i class="ti ti-device-tv text-violet-400"></i> Multi-Platform</span>
+            <span class="flex items-center gap-1"><i class="ti ti-cpu text-green-400"></i> FFmpeg</span>
           </div>
         </div>
       </div>
@@ -121,7 +126,7 @@
           Redirecting to dashboard in <span id="countdown">10</span> seconds...
         </p>
       </div>
-      <a href="/welcome/continue" class="inline-flex items-center justify-center text-primary hover:text-blue-400 font-medium transition-colors">
+      <a href="/welcome/continue" class="inline-flex items-center justify-center text-primary hover:text-violet-400 font-medium transition-colors">
         Go to Dashboard
         <i class="ti ti-arrow-right ml-2"></i>
       </a>

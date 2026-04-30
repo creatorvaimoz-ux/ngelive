@@ -1,22 +1,16 @@
 <div align="center">
 
-![logo](https://github.com/user-attachments/assets/83d95886-2fbb-45c7-986a-e6c4d053bc55)
+# 🎥 ngelive
 
-## StreamFlow: Web-Based Multi-Platform Streaming
+[![Version](https://img.shields.io/badge/version-1.0.0-blueviolet.svg)](https://github.com/creatorvaimoz-ux/ngelive/releases)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/creatorvaimoz-ux/ngelive/blob/main/LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/creatorvaimoz-ux/ngelive/blob/main/CONTRIBUTING.md)
+[![GitHub Stars](https://img.shields.io/github/stars/creatorvaimoz-ux/ngelive?style=social)](https://github.com/creatorvaimoz-ux/ngelive/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/creatorvaimoz-ux/ngelive?style=social)](https://github.com/creatorvaimoz-ux/ngelive/network/members)
 
-[![Version](https://img.shields.io/badge/version-2.2.2-blue.svg)](https://github.com/bangtutorial/streamflow/releases)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/bangtutorial/streamflow/blob/main/LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/bangtutorial/streamflow/blob/main/CONTRIBUTING.md)
-[![GitHub Stars](https://img.shields.io/github/stars/bangtutorial/streamflow?style=social)](https://github.com/bangtutorial/streamflow/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/bangtutorial/streamflow?style=social)](https://github.com/bangtutorial/streamflow/network/members)
+**ngelive** adalah platform live streaming berbasis web yang powerful, premium, dan mudah digunakan. Streaming ke YouTube, Facebook, dan platform RTMP lainnya secara bersamaan dengan satu aplikasi. Dilengkapi dengan video management, scheduled streaming, dan real-time monitoring untuk pengalaman streaming yang profesional.
 
-**StreamFlow** adalah platform live streaming berbasis web yang powerful dan mudah digunakan. Streaming ke YouTube, Facebook, dan platform RTMP lainnya secara bersamaan dengan satu aplikasi. Dilengkapi dengan video management, scheduled streaming, dan real-time monitoring untuk pengalaman streaming yang profesional.
-
-[🚀 Installation](#-quick-installation) • [📖 Documentation](#-manual-installation) • [🐳 Docker](#-docker-deployment) • [🪛 Troubleshooting](#-troubleshooting) • [💬 Community](https://github.com/bangtutorial/streamflow/discussions)
-
-![screenshot](https://github.com/user-attachments/assets/fef1c0a5-04f6-41ae-8ea1-5eb1fff13a22)
-
-
+[🚀 Instalasi](#-quick-installation) • [📖 Dokumentasi](#-manual-installation) • [🐳 Docker](#-docker-deployment) • [🪛 Troubleshooting](#-troubleshooting) • [💬 Community](https://github.com/creatorvaimoz-ux/ngelive/discussions)
 
 </div>
 
@@ -31,7 +25,7 @@
 - **Advanced Settings** - Kontrol penuh untuk bitrate, resolusi, FPS, dan orientasi video
 - **Real-time Monitoring** - Monitor status streaming dengan dashboard real-time
 - **Video Analytics** - Pantau statistik dan performa video langsung dari aplikasi
-- **Responsive UI** - Antarmuka modern yang responsif di semua perangkat
+- **Responsive UI** - Antarmuka modern bertema luxury violet/purple yang responsif di semua perangkat
 
 ## 💻 System Requirements
 
@@ -46,7 +40,7 @@
 Untuk instalasi otomatis, jalankan perintah berikut:
 
 ```bash
-curl -o install.sh https://raw.githubusercontent.com/bangtutorial/streamflow/main/install.sh && chmod +x install.sh && ./install.sh
+curl -o install.sh https://raw.githubusercontent.com/creatorvaimoz-ux/ngelive/main/install.sh && chmod +x install.sh && ./install.sh
 ```
 
 ## 🔧 Manual Installation
@@ -85,16 +79,16 @@ Install Git:
 sudo apt install git -y
 ```
 
-### 2. Setup Project StreamFlow
+### 2. Setup Project ngelive
 
 Clone repository:
 ```bash
-git clone https://github.com/bangtutorial/streamflow
+git clone https://github.com/creatorvaimoz-ux/ngelive
 ```
 
 Masuk ke direktori project:
 ```bash
-cd streamflow
+cd ngelive
 ```
 
 Install Paket Node.JS:
@@ -159,7 +153,7 @@ sudo npm install -g pm2
 
 Jalankan aplikasi dengan PM2:
 ```bash
-pm2 start app.js --name streamflow
+pm2 start app.js --name ngelive
 ```
 
 **Setup Auto-Restart saat Server Reboot:**
@@ -183,13 +177,13 @@ pm2 save
 pm2 status
 
 # Restart aplikasi
-pm2 restart streamflow
+pm2 restart ngelive
 
 # Stop aplikasi
-pm2 stop streamflow
+pm2 stop ngelive
 
 # Lihat logs aplikasi
-pm2 logs streamflow
+pm2 logs ngelive
 
 # Monitor resource usage
 pm2 monit
@@ -208,7 +202,7 @@ Contoh: `http://88.12.34.56:7575`
 Jika lupa password atau perlu reset akun:
 
 ```bash
-cd streamflow && node reset-password.js
+cd ngelive && node reset-password.js
 ```
 
 ## ⏰ Pengaturan Timezone Server
@@ -232,7 +226,7 @@ sudo timedatectl set-timezone Asia/Jakarta
 
 ### Restart aplikasi setelah mengubah timezone:
 ```bash
-pm2 restart streamflow
+pm2 restart ngelive
 ```
 
 ## 🐳 Docker Deployment
@@ -289,7 +283,7 @@ sudo kill -9 <PID>
 rm db/*.db
 
 # Restart aplikasi untuk membuat database baru
-pm2 restart streamflow
+pm2 restart ngelive
 ```
 
 ### Docker Troubleshooting
@@ -308,13 +302,11 @@ pm2 restart streamflow
 
 ## 💫 Contributors
 
-[![Contributors](https://contrib.rocks/image?repo=bangtutorial/streamflow)](https://github.com/bangtutorial/streamflow/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=creatorvaimoz-ux/ngelive)](https://github.com/creatorvaimoz-ux/ngelive/graphs/contributors)
 
 ## 📄 License
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/bangtutorial/streamflow/blob/main/LICENSE)
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/creatorvaimoz-ux/ngelive/blob/main/LICENSE)
 
 ---
-© 2026 - [Bang Tutorial](https://youtube.com/bangtutorial)
-
-
+© 2026 - [creatorvaimoz-ux](https://github.com/creatorvaimoz-ux) | ngelive — Platform Live Streaming Premium

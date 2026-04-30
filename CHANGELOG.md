@@ -1,10 +1,21 @@
 # Changelog
 
-Semua perubahan penting pada StreamFlow akan didokumentasikan di file ini.
+Semua perubahan penting pada **ngelive** akan didokumentasikan di file ini.
 
 ---
 
-## v2.1 - October 2, 2025
+## v1.0.0 - April 30, 2026
+
+### 🎨 Rebranding
+- Rebranding dari StreamFlow ke **ngelive**
+- Tema baru luxury Violet/Purple (#7C3AED)
+- Logo baru dengan ikon play + sinyal live berwarna purple
+- Semua halaman diperbarui ke identitas ngelive
+- GitHub repository dipindah ke creatorvaimoz-ux/ngelive
+
+---
+
+## v2.2 (StreamFlow Base) - October 2, 2025
 
 ### ✨ Added
 - Fitur playlist untuk streaming banyak video sekaligus
