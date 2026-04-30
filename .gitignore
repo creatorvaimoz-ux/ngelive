@@ -1,0 +1,34 @@
+node_modules/
+public/uploads/
+logs/
+
+# Environment variables - JANGAN di-upload!
+.env
+.env.local
+.env.production
+
+# Database files
+db/streamflow.db
+database.sqlite
+*.db
+*.sqlite
+
+# Lock files
+package-lock.json
+yarn.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build & temp
+dist/
+tmp/
+temp/
